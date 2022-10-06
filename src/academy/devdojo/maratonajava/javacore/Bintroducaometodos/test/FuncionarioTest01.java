@@ -5,9 +5,9 @@ import academy.devdojo.maratonajava.javacore.Bintroducaometodos.dominino.Funcion
 public class FuncionarioTest01 {
     public static void main(String[] args) {
         Funcionario funcionario = new Funcionario();
-        funcionario.nome = "Dante";
-        funcionario.idade = 23;
-        funcionario.salarios = new double[]{1200,1980,2360};//array
+        funcionario.setNome("Dante");
+        funcionario.setIdade(23);
+        funcionario.setSalarios( new double[]{1200,1980,2360});//array
 
         funcionario.imprime();
         //funcionario.mediaSalario();
