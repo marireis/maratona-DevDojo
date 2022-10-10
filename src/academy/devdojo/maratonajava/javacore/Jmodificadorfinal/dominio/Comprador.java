@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.Jmodificadofinal.dominio;
+package academy.devdojo.maratonajava.javacore.Jmodificadorfinal.dominio;
 
 public class Comprador {
     private String nome;
