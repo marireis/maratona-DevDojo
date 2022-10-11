@@ -1,0 +1,11 @@
+package academy.devdojo.maratonajava.javacore.Npolimofirmos.servico;
+
+import academy.devdojo.maratonajava.javacore.Npolimofirmos.repositorio.Repositorio;
+
+public class RepositorioBancoDeDados implements Repositorio {
+    @Override
+    public void salvar(){
+        System.out.println("Salvando no Banco de Dados");
+
+    }
+}
